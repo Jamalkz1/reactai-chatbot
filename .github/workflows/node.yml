@@ -1,0 +1,16 @@
+name: Node app
+
+on:
+  push:
+    branches:
+      - 'main'
+  pull_request:
+    branches:
+      - 'main'
+
+jobs:
+  nodeapp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello node
+        run: echo "no problems"

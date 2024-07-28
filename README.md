@@ -66,4 +66,15 @@ I converted my project's backend to Node.js, which is a JavaScript runtime known
 
 Sentry was integrated into the Node.js application to provide real-time error tracking and monitoring. This setup allowed to quickly identify, diagnose, and fix errors, improving the overall reliability and stability of the application. The implementation involved configuring the Sentry SDK in the application and ensuring that it captured relevant error data.
 
+6. Creating github action pipeline
+
+This sectioned focused on setting up a CI/CD (Continuous Integration/Continuous Deployment) pipeline using GitHub Actions. The pipeline will automate the process of building, testing, and deploying the Node.js application. Specifically, it will run end-to-end tests each time a new pull request is created in the repository.
+
+7. Running my nodejs using Docker
+
+The goal of this section was to containerise my Node.js application using Docker. Docker allows applications to run in isolated environments called containers, ensuring consistency across different development, testing, and production environments.
+
+8. CodeCov
+
+This task involved me integrating CodeCov, a tool for measuring and reporting code coverage. Integrating CodeCov provided me with insights into the test coverage of the project's code, helping to identify untested areas and improve overall code quality.
 

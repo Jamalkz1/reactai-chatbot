@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@codecov/node-codecov-opentelemetry": "^0.0.8",
     "@sentry/nextjs": "7.105.0",
     "@sentry/node": "^7.113.0",
     "@sentry/profiling-node": "^7.113.0",

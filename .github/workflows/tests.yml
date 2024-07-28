@@ -3,10 +3,10 @@ name: run e2e tests
 on:
   push:
     branches:
-      - 'main'
+      - "main"
   pull_request:
     branches:
-      - 'main'
+      - "main"
 
 jobs:
   e2etests:
@@ -17,7 +17,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
-          node-version: '18.17'  # Updated to meet Next.js requirements
+          node-version: "18.17" # Updated to meet Next.js requirements
       - name: Install Dependencies
         run: npm ci
       - name: Run tests
